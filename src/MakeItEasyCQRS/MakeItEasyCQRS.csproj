@@ -3,17 +3,19 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <PackageId>MakeItEasyCQRS</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>João Greco</Authors>
     <Company>grecojoao</Company>
     <PackageDescription>Easily use the CQRS design pattern!</PackageDescription>
     <RepositoryUrl>https://github.com/grecojoao/MakeItEasyCQRS</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <AssemblyVersion>1.0.0.1</AssemblyVersion>
-    <FileVersion>1.0.0.1</FileVersion>
+    <AssemblyVersion>1.0.0.2</AssemblyVersion>
+    <FileVersion>1.0.0.2</FileVersion>
+    <Description />
+    <PackageReleaseNotes>Added new interfaces for command and generic handlers.</PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="DomainNotifications" Version="1.0.0" />
+    <PackageReference Include="DomainNotifications" Version="1.0.2" />
   </ItemGroup>
 
 </Project>
